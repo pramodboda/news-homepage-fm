@@ -58,8 +58,12 @@ p {
   outline: none;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
 }
-
+.showcase div:first-child button:hover {
+  background: hsl(240, 100%, 5%);
+}
 .showcase > div:last-child {
   background: hsl(240, 100%, 5%);
   color: #fff;
