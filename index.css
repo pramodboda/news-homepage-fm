@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+html {
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+p {
+  line-height: 1.8;
+  color: hsl(236, 13%, 42%);
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1rem;
+}
+
+/* .header nav{
+ display: none;
+} */
+
+.showcase {
+  padding: 0 1rem 1.25rem 1rem;
+}
+
+.showcase h1 {
+  font-size: 2rem;
+  color: hsl(240, 100%, 5%);
+  margin: 1rem 0;
+}
+
+.showcase div:first-child article p {
+  margin-bottom: 1rem;
+}
+.showcase div:first-child button {
+  background: hsl(5, 85%, 63%);
+  color: #f9f9f9;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.showcase > div:last-child {
+  background: hsl(240, 100%, 5%);
+  color: #fff;
+  margin-top: 2rem;
+  padding: 1.25rem 1.25rem 0;
+}
+
+.showcase > div:last-child h2 {
+  color: hsl(35, 77%, 62%);
+}
+.showcase > div:last-child article {
+  padding: 1.25rem 0;
+}
+.showcase > div:last-child article:not(:last-child) {
+  border-bottom: 2px solid hsl(236, 13%, 42%);
+}
+
+.showcase > div:last-child h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.showcase > div:last-child h3:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+/* Cards styles */
+.cards {
+  padding: 1.25rem;
+}
+
+.cards article {
+  display: flex;
+}
