@@ -41,6 +41,13 @@ p {
  display: none;
 } */
 
+.header #menu-btn button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
 .showcase {
   padding: 0 1rem 1.25rem 1rem;
 }
@@ -140,7 +147,9 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   } */
-
+  .header #menu-btn button {
+    display: none;
+  }
   .header {
     padding: 2rem 1.25rem;
   }
