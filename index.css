@@ -41,6 +41,27 @@ p {
  display: none;
 } */
 
+.header nav.open{
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 75vw;
+  padding: 1.25rem;
+  background: #fff;
+  z-index: 999999;
+}
+
+.header nav ul{
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.header nav ul li{
+  margin: 1rem 0;
+}
+
 .header #menu-btn button {
   background: transparent;
   border: 0;
