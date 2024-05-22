@@ -48,6 +48,8 @@ p {
   background: transparent;
   border:none;
   outline: none;
+  right: 1.25rem;
+  top: 1.25rem;
   z-index: 999999;
   right: 1.25rem;
 }
