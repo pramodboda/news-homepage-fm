@@ -8,6 +8,7 @@
 }
 html {
   font-size: 15px;
+  background: #fefdf9;
 }
 
 body {
@@ -41,7 +42,15 @@ p {
  display: none;
 } */
 
-.header nav.open{
+.header nav #menu-close {
+  background: transparent;
+  border:none;
+  outline: none;
+  position: absolute;
+  right: 1.25rem;
+}
+
+.header nav.open {
   position: fixed;
   right: 0;
   top: 0;
@@ -52,17 +61,17 @@ p {
   z-index: 999999;
 }
 
-.header nav ul{
+.header nav ul {
   position: absolute;
   top: 50%;
-  transform: translateX(-50%);
+  transform: translateY(-50%);
 }
 
-.header nav ul li{
+.header nav ul li {
   margin: 1rem 0;
 }
 
-.header #menu-btn button {
+.header .menu-btn button {
   background: transparent;
   border: 0;
   outline: 0;
@@ -168,7 +177,7 @@ p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   } */
-  .header #menu-btn button {
+  .header .menu-btn button {
     display: none;
   }
   .header {
