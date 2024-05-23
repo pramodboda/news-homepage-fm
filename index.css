@@ -1,14 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 
+:root {
+  --c-white: "#fffdfa";
+  --c-off-white: hsl(36, 100%, 99%);
+  --c-grayish-blue: hsl(233, 8%, 79%);
+  --c-dark-grayish-blue: hsl(236, 13%, 42%);
+  --c-very-dark-blue: hsl(240, 100%, 5%);
+  --c-soft-orange: hsl(35, 77%, 62%);
+  --c-soft-red: hsl(5, 85%, 63%);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
+
 html {
   font-size: 15px;
-  background: #fefdf9;
+  background: hsl(48, 71%, 99%);
 }
 
 body {
@@ -25,9 +36,10 @@ img {
 ul {
   list-style-type: none;
 }
+
 p {
   line-height: 1.8;
-  color: hsl(236, 13%, 42%);
+  color: var(--c-dark-grayish-blue);
 }
 
 /* Header Styles */
@@ -46,7 +58,7 @@ p {
 .header nav #menu-close {
   position: fixed;
   background: transparent;
-  border:none;
+  border: none;
   outline: none;
   right: 1.25rem;
   top: 1.25rem;
@@ -54,7 +66,7 @@ p {
   right: 1.25rem;
 }
 
-.header nav{
+.header nav {
   opacity: 0;
   z-index: -999;
   transition: all 0.3s ease-in-out;
@@ -96,15 +108,16 @@ p {
 .showcase h1 {
   font-size: 2rem;
   font-weight: 800;
-  color: hsl(240, 100%, 5%);
+  color: var(--c-very-dark-blue);
   margin: 1rem 0;
 }
 
 .showcase div:first-child article p {
   margin-bottom: 1rem;
 }
+
 .showcase div:first-child button {
-  background: hsl(5, 85%, 63%);
+  background: var(--c-soft-red);
   color: #f9f9f9;
   padding: 0.8rem 2rem;
   font-size: 1rem;
@@ -116,33 +129,37 @@ p {
   cursor: pointer;
   transition: background 0.3s ease-in-out;
 }
+
 .showcase div:first-child button:hover {
-  background: hsl(240, 100%, 5%);
+  background: var(--c-very-dark-blue);
 }
-.showcase > div:last-child {
-  background: hsl(240, 100%, 5%);
+
+.showcase>div:last-child {
+  background: var(--c-very-dark-blue);
   color: #fff;
   margin-top: 2rem;
   padding: 1.25rem 1.25rem 0;
 }
 
-.showcase > div:last-child h2 {
-  color: hsl(35, 77%, 62%);
-}
-.showcase > div:last-child article {
-  padding: 1.25rem 0;
-}
-.showcase > div:last-child article:not(:last-child) {
-  border-bottom: 2px solid hsl(236, 13%, 42%);
+.showcase>div:last-child h2 {
+  color: var(--c-soft-orange);
 }
 
-.showcase > div:last-child h3 {
+.showcase>div:last-child article {
+  padding: 1.25rem 0;
+}
+
+.showcase>div:last-child article:not(:last-child) {
+  border-bottom: 2px solid var(--c-dark-grayish-blue);
+}
+
+.showcase>div:last-child h3 {
   color: #fff;
   margin-bottom: 0.5rem;
 }
 
-.showcase > div:last-child h3:hover {
-  color: hsl(35, 77%, 62%);
+.showcase>div:last-child h3:hover {
+  color: var(--c-soft-orange);
   cursor: pointer;
 }
 
@@ -159,9 +176,11 @@ p {
   gap: 1.25rem;
   align-items: center;
 }
+
 .cards article img {
   width: 150px;
 }
+
 .cards article span {
   color: hsl(0, 0%, 62%);
   font-weight: 800;
@@ -171,7 +190,7 @@ p {
 
 .cards article h4 {
   font-size: 1.25rem;
-  color: hsl(240, 100%, 5%);
+  color: var(--c-very-dark-blue);
   margin: 1rem 0;
 }
 
@@ -184,6 +203,7 @@ p {
 }
 
 @media (min-width: 1024px) {
+
   /* .showcase{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -191,9 +211,11 @@ p {
   .header .menu-btn button {
     display: none;
   }
+
   .header {
     padding: 2rem 1.25rem;
   }
+
   .showcase {
     display: flex;
     gap: 2rem;
@@ -203,7 +225,7 @@ p {
     font-size: 3rem;
   }
 
-  .showcase > div:first-child article {
+  .showcase>div:first-child article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
@@ -211,7 +233,7 @@ p {
     margin-top: 2rem;
   }
 
-  .showcase > div:last-child {
+  .showcase>div:last-child {
     margin-top: 0;
   }
 
