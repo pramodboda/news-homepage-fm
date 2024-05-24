@@ -31,11 +31,9 @@ Users should be able to:
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [https://your-solution-url.com](https://your-solution-url.com)
+- Solution URL: [https://github.com/pramodboda/news-homepage-fm](https://github.com/pramodboda/news-homepage-fm)
 - Live Site URL: [https://news-homepage-fm-bice.vercel.app/](https://news-homepage-fm-bice.vercel.app/)
 
 ## My process
@@ -58,10 +56,8 @@ I need to convert this static website to ReactJS website
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [@pramodboda](https://www.frontendmentor.io/profile/pramodboda)
+- Instagram - [@pramodboda.dev](https://www.instagram.com/pramodboda.dev)
 
 ## Acknowledgments
 
@@ -70,7 +66,7 @@ Start thinking how design has given and add accordingly the Semantic HTML5 marku
 Checklist:
 - Design and Semantic HTML5 markup
 - Best files and folders structure
-- Try to develop with accurate desktop and mobile design as challenge has given.
+- Try to develop with accurate desktop and mobile design as what ever challenge has been given.
 - Check links and active styles added.
 - Check functionality completely.
 - Check all final check. then only move to git and deploy where ever you want.
